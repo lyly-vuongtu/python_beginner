@@ -1,2 +1,2 @@
 print("Hello mibo team !!")
-print("hello Tri!!")
+print("Hello viet!!")
