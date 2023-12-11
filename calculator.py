@@ -1,3 +1,4 @@
+"""
 #x = 1
 #x =int(input("What's x? "))
 x =float(input("What's x? ")) 
@@ -28,3 +29,16 @@ def main():
 
 def square(n):
     return n * n
+    """
+
+
+
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
+
+def square(n):
+    return n + n
+
+if __name__=="__main__":
+    main()
