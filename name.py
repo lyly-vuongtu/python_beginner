@@ -13,5 +13,6 @@ if len(sys.argv)<2:
 #    sys.exit("Too many arguments")
 # print name tags
 #print("hello, my name is",sys.argv[1])
-for arg in sys.argv[1:]:
+# Trừ chữ cái phía sau, không in ra từ cuối cùng
+for arg in sys.argv[1:-1]:
     print("hello, my name is",arg)

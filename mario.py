@@ -4,7 +4,7 @@ def main():
 
 def print_square(size):
     for i in range(size):
-        print("#"* size)
+        print_row("#"* size)
 """    #for each row in square
     for i in range(size):
         #for each brick in row
@@ -15,6 +15,7 @@ def print_square(size):
 
     for _ in range(height):
         print("#")"""
-
+def print_row(width):
+    print("#"* width)
 main()
     
