@@ -26,5 +26,18 @@ hello
 #print('hello, "friend"')
 #print("hello, \"friend\"")
 
-name = input("What's your name? ")
-print("hello,",name)
+"""
+def hello():
+    print("hello")
+"""
+
+def main():
+    name = input("What's your name? ")
+    hello(name)
+
+def hello(to = "world"):
+    print("hello,", to)
+
+
+main()
+
