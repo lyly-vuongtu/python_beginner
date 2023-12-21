@@ -48,7 +48,14 @@ def main():
     
 
 def hello(to = "world"):
-    return f"hello, {to}"
+    return f"Hello, {to}"
 
 if __name__=="__main__":
     main()
+
+infor = {
+    "name": "Van Uy Tri",
+    "age": "20",
+    "address": "Ben Tre city",
+    "school": "Ben Tre College",
+}

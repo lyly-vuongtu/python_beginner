@@ -1,1 +1,6 @@
-helo
+Hermione
+Gryffindor
+Harry
+Gryffindor
+Ron 
+Gryffindor
